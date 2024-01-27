@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <h1>Soava RAKOTOMANANA</h1>
+      <h3>Bonjour, je suis concepteur et développeur d'applications numériques</h3>
     </>
   )
 }
