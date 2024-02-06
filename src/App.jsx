@@ -1,15 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar.jsx'
+import { Col, Container, Row } from 'react-bootstrap';
+import Skills from './components/Skills';
+import Footer from './components/Footer.jsx';
+import Resume from './components/Resume.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Soava RAKOTOMANANA</h1>
-      <h3>Bonjour, je suis concepteur et développeur d'applications numériques</h3>
+      <NavBar />
+      <Resume />
+      <Skills />
+      <Footer />
     </>
   )
 }
